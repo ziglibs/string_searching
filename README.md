@@ -1,9 +1,12 @@
-# string-searching
+# string_searching
 
-![CI](https://github.com/ziglibs/zig-string-searching/workflows/CI/badge.svg)
+![CI](https://github.com/ziglibs/string_searching/workflows/CI/badge.svg)
 
 Implementation of some string-search algorithms in
-[zig](https://ziglang.org). Compatible with zig 0.13.0.
+[zig](https://ziglang.org). Compatible with zig 0.16.0.
+
+> [!IMPORTANT]
+> This library was renamed from `string-searching`, now using an underscore
 
 ### Boyer-Moore string searching
 

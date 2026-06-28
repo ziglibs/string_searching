@@ -8,7 +8,7 @@ const possibleValues = @import("common.zig").possibleValues;
 
 pub fn StringFinder(comptime T: type) type {
     const ElemType = std.meta.Elem(T);
-    assert(@typeInfo(ElemType) == .Int);
+    assert(@typeInfo(ElemType) == .int);
 
     return struct {
         allocator: ?Allocator,

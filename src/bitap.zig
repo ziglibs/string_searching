@@ -15,7 +15,7 @@ pub fn bitap(
     pattern: T,
 ) ?usize {
     const ElemType = std.meta.Elem(T);
-    assert(@typeInfo(ElemType) == .Int);
+    assert(@typeInfo(ElemType) == .int);
     assert(pattern.len <= max_pattern_length);
 
     const Int = std.meta.Int(.unsigned, max_pattern_length + 1);
